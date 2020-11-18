@@ -1,0 +1,26 @@
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead tr{
+    background-color: bisque;
+}
+
+tbody tr{
+    text-align: center;
+}
+
+tbody tr:hover{
+    background-color: lightblue;
+}
